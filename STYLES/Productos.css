@@ -1,0 +1,82 @@
+/* CONTENIDO DE LA BARRA DE MENU */
+.menu{
+    display: flex; /* Para que los elementos se alineen en una sola linea */
+    background: rgba(200, 150, 41); /* Color del fondo menu */
+    height: 4rem; /* Altura del menu */
+    justify-content: space-evenly; /* Para que los elementos se alineen en una sola linea */
+    align-items: center; /* Para que los elementos se alineen en una sola linea */
+}
+.menu li{
+    list-style: none; /* Quita los puntos de la lista */
+}
+.menu li a{
+    color: white; /* Color de la letra */
+    list-style: none; /* Quita los puntos de la lista */
+    font-size: 38px; /* Tamaño de letra */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+/* DECORACÍON GALERIA PRODUCTOS */
+body{
+    background-color:seagreen;
+}
+h1{
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue; /* Sombra al texto*/
+    text-align: center; /* Centrar texto */
+}
+
+div.galeria{
+    margin:  10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 100%; /* Ancho de la imagen */
+    height: auto; /* Altura de la imagen */
+}
+/*hover=flotar*/
+div.galeria:hover{
+    border: 10px solid black;
+    transform: rotate(-3deg); /* Permite  rotar o escalr elementos */
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px blue;
+    padding: 10px;
+}
+
+/* Información del boton */
+.información button{
+    background-color: #263143;
+    width: 10px;
+    height: 35;
+    border: 100px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.información button:hover{
+    background-color: #263143;
+}
+
+.informacion ,button{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid red;
+    color:#fff;
+    text-decoration: none;
+    background: red;
+}
+

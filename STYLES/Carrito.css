@@ -1,0 +1,22 @@
+/* CONTENIDO DE LA BARRA DE MENU */
+.menu{
+    display: flex; /* Para que los elementos se alineen en una sola linea */
+    background: rgba(200, 150, 41); /* Color del fondo menu */
+    height: 4rem; /* Altura del menu */
+    justify-content: space-evenly; /* Para que los elementos se alineen en una sola linea */
+    align-items: center; /* Para que los elementos se alineen en una sola linea */
+}
+.menu li{
+    list-style: none; /* Quita los puntos de la lista */
+}
+.menu li a{
+    color: white; /* Color de la letra */
+    list-style: none; /* Quita los puntos de la lista */
+    font-size: 38px; /* Tamaño de letra */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+/* DECORACÍON GALERIA PRODUCTOS */
+body{
+    background-color:seagreen;
+}
